@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+/* Status indicator colors */
+.status-healthy { @apply bg-emerald-500; }
+.status-warning { @apply bg-amber-500; }
+.status-critical { @apply bg-red-500; }
+.status-silent  { @apply bg-gray-500; }
